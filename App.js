@@ -36,52 +36,52 @@ const heightDevice = Dimensions.get('window').height
  * https://media.suara.com/pictures/480x260/2020/04/17/66641-nissan-gt-r-r35-dengan-ukiran-hasil-garapan-kuhl-racing.jpg
  * https://media.suara.com/pictures/653x366/2020/04/17/43308-nissan-gt-r-r35-dengan-ukiran-hasil-garapan-kuhl-racing.jpg
  */
-// const Items = [
-//   "https://imgx.gridoto.com/crop/100x106:998x620/700x465/photo/2020/04/04/2207304464.jpg",
-//   "https://i.ytimg.com/vi/oRY_W2WYx5c/maxresdefault.jpg",
-//   "https://cdna.artstation.com/p/assets/images/images/009/769/794/large/fabio-puddu-2017-nissan-gtr-29-1.jpg?1520811070",
-//   "https://media.suara.com/pictures/480x260/2020/04/17/66641-nissan-gt-r-r35-dengan-ukiran-hasil-garapan-kuhl-racing.jpg",
-//   "https://imgx.gridoto.com/crop/100x106:998x620/700x465/photo/2020/04/04/2207304464.jpg",
-//   "https://i.ytimg.com/vi/oRY_W2WYx5c/maxresdefault.jpg",
-//   "https://cdna.artstation.com/p/assets/images/images/009/769/794/large/fabio-puddu-2017-nissan-gtr-29-1.jpg?1520811070",
-//   "https://media.suara.com/pictures/480x260/2020/04/17/66641-nissan-gt-r-r35-dengan-ukiran-hasil-garapan-kuhl-racing.jpg",
-//   "https://imgx.gridoto.com/crop/100x106:998x620/700x465/photo/2020/04/04/2207304464.jpg",
-//   "https://i.ytimg.com/vi/oRY_W2WYx5c/maxresdefault.jpg",
-//   "https://cdna.artstation.com/p/assets/images/images/009/769/794/large/fabio-puddu-2017-nissan-gtr-29-1.jpg?1520811070",
-//   "https://media.suara.com/pictures/480x260/2020/04/17/66641-nissan-gt-r-r35-dengan-ukiran-hasil-garapan-kuhl-racing.jpg",
-//   "https://media.suara.com/pictures/653x366/2020/04/17/43308-nissan-gt-r-r35-dengan-ukiran-hasil-garapan-kuhl-racing.jpg",
-//   "https://cdn11.bigcommerce.com/s-yrkef1j7/images/stencil/1280x1280/products/3304/32773/A2__47280.1559604833.jpg?c=2",
-//   "https://cdna.artstation.com/p/assets/images/images/016/472/182/large/arif-rahman-gtr-r35-rd-24.jpg?1552310630",
-//   "https://www-europe.nissan-cdn.net/content/dam/Nissan/nissan_europe/vehicles/gt-r/r35/2_minor_change/overview/19TDIEULHD_GT-R_002.jpg.ximg.l_full_m.smart.jpg",
-//   "https://i2.wp.com/motor-vision.co.uk/wp-content/uploads/2018/03/NISSAN-GTR.jpg?resize=1200%2C520&ssl=1",
-//   "https://img.cintamobil.com/2019/04/22/FdbNczfb/belakang-nissan-gt-r-nismo-2020-955c.jpg",
-//   "https://cdna.artstation.com/p/assets/images/images/016/472/182/large/arif-rahman-gtr-r35-rd-24.jpg?1552310630",
-//   "https://www-europe.nissan-cdn.net/content/dam/Nissan/nissan_europe/vehicles/gt-r/r35/2_minor_change/overview/19TDIEULHD_GT-R_002.jpg.ximg.l_full_m.smart.jpg",
-//   "https://i2.wp.com/motor-vision.co.uk/wp-content/uploads/2018/03/NISSAN-GTR.jpg?resize=1200%2C520&ssl=1",
-//   "https://img.cintamobil.com/2019/04/22/FdbNczfb/belakang-nissan-gt-r-nismo-2020-955c.jpg",
-//   "https://cdna.artstation.com/p/assets/images/images/016/472/182/large/arif-rahman-gtr-r35-rd-24.jpg?1552310630",
-//   "https://www-europe.nissan-cdn.net/content/dam/Nissan/nissan_europe/vehicles/gt-r/r35/2_minor_change/overview/19TDIEULHD_GT-R_002.jpg.ximg.l_full_m.smart.jpg",
-//   "https://i2.wp.com/motor-vision.co.uk/wp-content/uploads/2018/03/NISSAN-GTR.jpg?resize=1200%2C520&ssl=1",
-//   "https://img.cintamobil.com/2019/04/22/FdbNczfb/belakang-nissan-gt-r-nismo-2020-955c.jpg",
-//   "https://imgx.gridoto.com/crop/259x172:1295x863/700x465/filters:watermark(file/2017/gridoto/img/watermark_otomotifnet.png,5,5,60)/photo/2019/08/27/96665033.jpg",
-//   "https://i.pinimg.com/originals/95/45/79/954579f702173b6e995f602d6948c446.jpg",
-// ]
+const Items = [
+  "https://imgx.gridoto.com/crop/100x106:998x620/700x465/photo/2020/04/04/2207304464.jpg",
+  "https://i.ytimg.com/vi/oRY_W2WYx5c/maxresdefault.jpg",
+  "https://cdna.artstation.com/p/assets/images/images/009/769/794/large/fabio-puddu-2017-nissan-gtr-29-1.jpg?1520811070",
+  "https://media.suara.com/pictures/480x260/2020/04/17/66641-nissan-gt-r-r35-dengan-ukiran-hasil-garapan-kuhl-racing.jpg",
+  "https://imgx.gridoto.com/crop/100x106:998x620/700x465/photo/2020/04/04/2207304464.jpg",
+  "https://i.ytimg.com/vi/oRY_W2WYx5c/maxresdefault.jpg",
+  "https://cdna.artstation.com/p/assets/images/images/009/769/794/large/fabio-puddu-2017-nissan-gtr-29-1.jpg?1520811070",
+  "https://media.suara.com/pictures/480x260/2020/04/17/66641-nissan-gt-r-r35-dengan-ukiran-hasil-garapan-kuhl-racing.jpg",
+  "https://imgx.gridoto.com/crop/100x106:998x620/700x465/photo/2020/04/04/2207304464.jpg",
+  "https://i.ytimg.com/vi/oRY_W2WYx5c/maxresdefault.jpg",
+  "https://cdna.artstation.com/p/assets/images/images/009/769/794/large/fabio-puddu-2017-nissan-gtr-29-1.jpg?1520811070",
+  "https://media.suara.com/pictures/480x260/2020/04/17/66641-nissan-gt-r-r35-dengan-ukiran-hasil-garapan-kuhl-racing.jpg",
+  "https://media.suara.com/pictures/653x366/2020/04/17/43308-nissan-gt-r-r35-dengan-ukiran-hasil-garapan-kuhl-racing.jpg",
+  "https://cdn11.bigcommerce.com/s-yrkef1j7/images/stencil/1280x1280/products/3304/32773/A2__47280.1559604833.jpg?c=2",
+  "https://cdna.artstation.com/p/assets/images/images/016/472/182/large/arif-rahman-gtr-r35-rd-24.jpg?1552310630",
+  "https://www-europe.nissan-cdn.net/content/dam/Nissan/nissan_europe/vehicles/gt-r/r35/2_minor_change/overview/19TDIEULHD_GT-R_002.jpg.ximg.l_full_m.smart.jpg",
+  "https://i2.wp.com/motor-vision.co.uk/wp-content/uploads/2018/03/NISSAN-GTR.jpg?resize=1200%2C520&ssl=1",
+  "https://img.cintamobil.com/2019/04/22/FdbNczfb/belakang-nissan-gt-r-nismo-2020-955c.jpg",
+  "https://cdna.artstation.com/p/assets/images/images/016/472/182/large/arif-rahman-gtr-r35-rd-24.jpg?1552310630",
+  "https://www-europe.nissan-cdn.net/content/dam/Nissan/nissan_europe/vehicles/gt-r/r35/2_minor_change/overview/19TDIEULHD_GT-R_002.jpg.ximg.l_full_m.smart.jpg",
+  "https://i2.wp.com/motor-vision.co.uk/wp-content/uploads/2018/03/NISSAN-GTR.jpg?resize=1200%2C520&ssl=1",
+  "https://img.cintamobil.com/2019/04/22/FdbNczfb/belakang-nissan-gt-r-nismo-2020-955c.jpg",
+  "https://cdna.artstation.com/p/assets/images/images/016/472/182/large/arif-rahman-gtr-r35-rd-24.jpg?1552310630",
+  "https://www-europe.nissan-cdn.net/content/dam/Nissan/nissan_europe/vehicles/gt-r/r35/2_minor_change/overview/19TDIEULHD_GT-R_002.jpg.ximg.l_full_m.smart.jpg",
+  "https://i2.wp.com/motor-vision.co.uk/wp-content/uploads/2018/03/NISSAN-GTR.jpg?resize=1200%2C520&ssl=1",
+  "https://img.cintamobil.com/2019/04/22/FdbNczfb/belakang-nissan-gt-r-nismo-2020-955c.jpg",
+  "https://imgx.gridoto.com/crop/259x172:1295x863/700x465/filters:watermark(file/2017/gridoto/img/watermark_otomotifnet.png,5,5,60)/photo/2019/08/27/96665033.jpg",
+  "https://i.pinimg.com/originals/95/45/79/954579f702173b6e995f602d6948c446.jpg",
+]
 
 
-const Items = ["","","","","","","","","","","","","","","","","","","","",]
+// const Items = ["","","","","","","","","","","","","","","","","","","","","","","","","","",]
 
 
 const App = () => {
   return (
     <View style={{ flex: 1,
-      backgroundColor: "red",
+      // backgroundColor: "red",
       flexDirection: "column",
       width: widthDevice,
       height: heightDevice }}>
 
         {/** Header Menu */}
         <View style={{
-          backgroundColor: "yellow",
+          // backgroundColor: "yellow",
           width: widthDevice,
           flexDirection: "row",
           justifyContent: "space-between",
@@ -89,7 +89,7 @@ const App = () => {
         }}>
 
           <View style={{
-            backgroundColor:"red",
+            // backgroundColor:"red",
             flexWrap: "wrap",
             paddingLeft: 10,
             paddingTop: 5}}>
@@ -111,7 +111,7 @@ const App = () => {
           </View>
 
           <View style={{
-            backgroundColor:"blue",
+            // backgroundColor:"blue",
             flexWrap:"wrap",
             paddingTop: 5 }}>
 
@@ -135,9 +135,10 @@ const App = () => {
 
         {/** Bodies Scrolling */}
         <View style={{
-          backgroundColor: "green",
+          // backgroundColor: "green",
           height: heightDevice,
           width: widthDevice,
+          paddingBottom: 50,
         }}>
           <ScrollView showsVerticalScrollIndicator={false}>
 
@@ -148,7 +149,7 @@ const App = () => {
 
               {/** Photo Profile */}
               <View style={{
-                backgroundColor:"blue",
+                // backgroundColor:"blue",
                 paddingHorizontal: 10,
                 paddingTop: 5,
                 }}>
@@ -157,21 +158,30 @@ const App = () => {
 
               {/** POST || Followers || Following */}
               <View style={{
-                backgroundColor:"cyan",
+                // backgroundColor:"cyan",
                 flexDirection:"row",
                 paddingVertical: 25,
                 paddingLeft: 30,
                 width: widthDevice
                 }}>
-                <View style={{backgroundColor: "yellow", marginLeft: 10, marginRight: 10}}>
+                <View style={{
+                  // backgroundColor: "yellow",
+                  marginLeft: 10,
+                  marginRight: 10}}>
                   <Text style={{textAlign: "center", fontWeight:"bold", fontSize: 20 }}>{Items.length}</Text>
                   <Text style={{fontSize: 15, textAlign: "center"}}>Posts</Text>
                 </View>
-                <View style={{backgroundColor: "yellow", marginLeft: 10, marginRight: 10}}>
+                <View style={{
+                  // backgroundColor: "yellow",
+                  marginLeft: 10,
+                  marginRight: 10}}>
                   <Text style={{textAlign: "center", fontWeight:"bold", fontSize: 20 }}>0</Text>
                   <Text style={{fontSize: 15, textAlign: "center"}}>Followers</Text>
                 </View>
-                <View style={{backgroundColor: "yellow", marginLeft: 10, marginRight: 10}}>
+                <View style={{
+                  // backgroundColor: "yellow",
+                  marginLeft: 10,
+                  marginRight: 10}}>
                   <Text style={{textAlign: "center", fontWeight:"bold", fontSize: 20 }}>19k</Text>
                   <Text style={{fontSize: 15, textAlign: "center"}}>Following</Text>
                 </View>
@@ -179,14 +189,17 @@ const App = () => {
             </View>
 
             {/* Status */}
-            <View style={{backgroundColor: "yellow", paddingVertical: 5, paddingLeft: 10}}>
+            <View style={{
+              // backgroundColor: "yellow",
+              paddingVertical: 5,
+              paddingLeft: 10}}>
               <Text style={{fontSize: 15, fontWeight: "bold"}} >Lucky Adhitya F</Text>
               <Text style={{fontSize: 15}} >blood everywere</Text>
             </View>
 
             {/* Button Edit Profile */}
             <View style={{
-              backgroundColor: "cyan",
+              // backgroundColor: "cyan",
               width: widthDevice - 20,
               borderColor: "#d1d1d1",
               alignSelf: "center",
@@ -200,7 +213,7 @@ const App = () => {
 
             {/* Togle Story Highlights */}
             <View style={{
-                backgroundColor: "red",
+                // backgroundColor: "red",
                 alignSelf: "center",
                 width: widthDevice,
               }}>
@@ -209,7 +222,7 @@ const App = () => {
                 <Text style={{ marginLeft:15 }}>Keep your favorite stories on your profile</Text>
                 <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
                   <View style={{
-                    backgroundColor: "blue",
+                    // backgroundColor: "blue",
                     marginLeft: 10,
                     marginTop: 10,
                     flexDirection: "row",
@@ -299,7 +312,7 @@ const App = () => {
 
             {/* bar menu */}
             <View style={{
-              backgroundColor: "yellow",
+              // backgroundColor: "yellow",
               with: widthDevice,
               flexDirection: "row",
               height: 70,
@@ -351,7 +364,7 @@ const App = () => {
 
         {/** Sticky Footer */}
         <View style={{
-          backgroundColor: "blue",
+          backgroundColor: "white",
           position: "absolute",
           flexDirection: "row",
           width: widthDevice,
@@ -837,7 +850,7 @@ const ItemGalery = () => {
 
 const PhotoProfileBar = () => {
   return <Image 
-  // source={{uri:"https://i.pinimg.com/564x/3f/20/c2/3f20c211d79ebcddd4633aaa29df0613.jpg"}}
+  source={{uri:"https://i.pinimg.com/564x/3f/20/c2/3f20c211d79ebcddd4633aaa29df0613.jpg"}}
   style={{
     backgroundColor: "grey",
     borderRadius: 50,
@@ -848,7 +861,7 @@ const PhotoProfileBar = () => {
 
 const PhotoProfile = () => {
   return <Image 
-  // source={{uri:"https://i.pinimg.com/564x/3f/20/c2/3f20c211d79ebcddd4633aaa29df0613.jpg"}}
+  source={{uri:"https://i.pinimg.com/564x/3f/20/c2/3f20c211d79ebcddd4633aaa29df0613.jpg"}}
   style={{
     backgroundColor: "grey",
     borderRadius: 50,
