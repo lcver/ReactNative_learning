@@ -10,10 +10,11 @@ import React from 'react';
 
 import ProfilePage from './ProfilePage.js'
 import WelcomePage from './WelcomePage.js'
+import WeddingGalery from './WeedingGalery.js'
 
 
 const App = () => {
-  return <WelcomePage />;
+  return <WeddingGalery />;
 };
 
 export default App;
